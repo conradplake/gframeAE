@@ -1,5 +1,5 @@
 # gframeAE
-A Java 3D engine for Android applications
+A Java 3D engine for Android applications. Uses its own software renderer instead of an OpenGL implementation.
 
 Features include:
  - pixel-perfect perspective correct texture mapping
