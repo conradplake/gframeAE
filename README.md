@@ -11,7 +11,7 @@ Features include:
 
 
 
-As a small tutorial, here is an example View-Class that shows a single rotating cube:
+As a small tutorial, here is an example Android View-Class that shows a single rotating cube:
 
 ```java
 import android.content.Context;
