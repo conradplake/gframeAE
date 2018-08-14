@@ -12,7 +12,6 @@ Features include:
 Feel free to do whatever you want with this code.
 
 
-{noformat}
-public class MyView extends View {}
-{noformat}
+```public class MyView extends View {}
+```
 
