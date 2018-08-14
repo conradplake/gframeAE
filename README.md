@@ -12,6 +12,7 @@ Features include:
 Feel free to do whatever you want with this code.
 
 
-```public class MyView extends View {}
+```java
+public class MyView extends View {}
 ```
 
