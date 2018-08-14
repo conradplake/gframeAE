@@ -70,10 +70,8 @@ public class MyView extends View {
         Rotate rotate = new Rotate(model, 100000000, 0.01f, Rotate.AXIS_Z);
         timer.registerTimedObject(rotate);
 
-        // LIGHT + CAMERA SETTINGS
-        lightsource.x = 0;
-        lightsource.y = 0;
-        lightsource.z = -100;
+        // light and camera settings
+        lightsource.setCoordinates(0, 0, -100);
 
         Camera camera = new TripodCamera();
         camera.move(0, 0, -200);
