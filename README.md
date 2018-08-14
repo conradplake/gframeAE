@@ -9,12 +9,23 @@ Features include:
  - shadow mapping
  - physics support & particles
 
-Feel free to do whatever you want with this code.
 
-
-Here is an example View-Class that shows a single rotating cube.
+As a small tutorial here is an example View-Class that shows a single rotating cube.
 
 ```java
+import gframe.ae.engine.Engine3D;
+import gframe.ae.engine.Lightsource;
+import gframe.ae.engine.Material;
+import gframe.ae.engine.Model3D;
+import gframe.ae.engine.NormalMappedMaterialShader;
+import gframe.ae.engine.Shader;
+import gframe.ae.engine.camera.Camera;
+import gframe.ae.engine.camera.TripodCamera;
+import gframe.ae.engine.generator.Model3DGenerator;
+import gframe.ae.engine.generator.TextureGenerator;
+import gframe.ae.engine.timing.Rotate;
+import gframe.ae.engine.timing.Timer;
+
 public class MyView extends View {
 
     private Engine3D engine;
