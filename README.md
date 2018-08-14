@@ -96,3 +96,6 @@ public class MyView extends View {
 }
 ```
 
+Should look like so:
+
+![alt text](https://github.com/conradplake/gframeAE/blob/master/TestApp_Screenshot.png "Test application screenshot")
