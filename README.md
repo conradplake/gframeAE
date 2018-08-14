@@ -10,3 +10,9 @@ Features include:
  - physics support & particles
 
 Feel free to do whatever you want with this code.
+
+
+{noformat}
+public class MyView extends View {}
+{noformat}
+
