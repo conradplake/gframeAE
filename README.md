@@ -63,8 +63,7 @@ public class MyView extends View {
         // add something to the world..
         Model3D model = Model3DGenerator.buildBlock(80, 80, 80, gframe.ae.engine.Color.white);
         model = Model3DGenerator.facify(model);
-        model.rotate(-45, -45, 45);
-        model.scale(1, 1, 1);
+        model.rotate(-45, -45, 45);  
         model.setMaterial(Material.GOLD);
         
         engine.register(model);
