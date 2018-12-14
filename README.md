@@ -3,8 +3,8 @@ A Java 3D engine for Android applications. Uses a pure software renderer instead
 
 Features include:
  - pixel-perfect perspective correct texture mapping
- - light attenuation
  - sub-pixel & sub-texel accuracy
+ - light attenuation
  - flat & phong shading
  - normal & specular mapping
  - shadow mapping
